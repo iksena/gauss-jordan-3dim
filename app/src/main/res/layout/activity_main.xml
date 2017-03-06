@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ml.ikomangsena.gaussmini.MainActivity">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:progress="3"
+        android:max="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say no more!"
+        android:id="@+id/textView"
+        android:layout_below="@+id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <!-- BARIS 1 -->
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/satu"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/dua"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/satu"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/tiga"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/dua"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/hasil1"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/tiga"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+
+    <!-- BARIS 2 -->
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/empat"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/satu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/lima"
+        android:layout_below="@+id/dua"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/empat"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/enam"
+        android:layout_below="@+id/tiga"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/lima"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/hasil2"
+        android:layout_below="@+id/hasil1"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/enam"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+
+    <!-- BARIS 3 -->
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/tujuh"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/empat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/delapan"
+        android:layout_below="@+id/lima"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/tujuh"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/sembilan"
+        android:layout_below="@+id/enam"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/delapan"
+        android:layout_centerHorizontal="true"
+        android:hint="0"
+        android:text="0"
+        tools:text="0" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:ems="10"
+        android:id="@+id/hasil3"
+        android:hint="0"
+        android:text="0"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/hasil2"
+        android:layout_alignStart="@+id/hasil2"
+        android:layout_toRightOf="@id/sembilan"
+        tools:text="0"/>
+
+    <Button
+        android:text="Gaskeun!!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/hitung"
+        android:layout_below="@+id/delapan"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="A ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sil1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/hitung"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="B ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sil2"
+        android:layout_below="@id/sil1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="C = "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sil2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sil3"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="Copyright 2017 I Komang Sena Aji Buwana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView6" />
+
+</RelativeLayout>
